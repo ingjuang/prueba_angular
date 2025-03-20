@@ -1,0 +1,7 @@
+@if (customer) {
+  <h2>Información del Cliente</h2>
+  <p><strong>ID:</strong> {{ customer.id }}</p>
+  <p><strong>Nombre:</strong> {{ customer.name }}</p>
+} @else {
+  <p>No hay cliente seleccionado.</p>
+}
